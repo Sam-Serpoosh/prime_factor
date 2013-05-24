@@ -1,5 +1,6 @@
 class PrimeFactor
   def self.of(num)
-    []
-	end
+    return [] if num < 1
+    [num]
+  end
 end
